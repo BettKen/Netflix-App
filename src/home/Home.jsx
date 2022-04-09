@@ -2,6 +2,7 @@ import "./home.scss";
 import Navbar from "../components/navbar/Navbar";
 import Featured from "../components/featured/Featured";
 import List from "../components/list/List";
+import ListItem from "../components/listItem/ListItem";
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <Navbar/>
       <Featured/>
       <List/>
+      <ListItem/>
   </div>
   )
 }
